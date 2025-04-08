@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Mi Tienda Virtual</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🛒 Mi Tienda Virtual</h1>
+  <div id="productos"></div>
+
+  <div class="carrito">
+    <h2>🧾 Carrito de Compras</h2>
+    <ul id="lista-carrito"></ul>
+    <p><strong>Total: $<span id="total">0.00</span></strong></p>
+    <button class="vaciar" onclick="vaciarCarrito()">🧼 Vaciar Carrito</button>
+  </div>
+
+  <div class="checkout">
+    <h2>💳 Finalizar Compra</h2>
+    <form onsubmit="realizarCompra(event)">
+      <input type="text" id="nombre" placeholder="Nombre completo" required><br>
+      <input type="email" id="correo" placeholder="Correo electrónico" required><br>
+      <button type="submit">🛍️ Comprar Ahora</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

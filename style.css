@@ -1,0 +1,68 @@
+
+body {
+  font-family: system-ui;
+  background-color: #f4f4f4;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #222;
+}
+
+.producto {
+  border: 1px solid #ccc;
+  background: white;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  width: 200px;
+}
+
+.producto button,
+.carrito button {
+  background-color: #28a745;
+  border: none;
+  color: white;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.carrito {
+  margin-top: 30px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  text-align: left;
+  display: inline-block;
+}
+
+.carrito button.vaciar {
+  background-color: #dc3545;
+  margin-top: 10px;
+}
+
+.checkout {
+  margin-top: 30px;
+  padding: 15px;
+  background: #fff;
+  border-radius: 8px;
+  text-align: left;
+  display: inline-block;
+}
+
+.checkout input {
+  width: 95%;
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.checkout button {
+  background-color: #007bff;
+}
